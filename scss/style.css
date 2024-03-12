@@ -48,6 +48,10 @@ header p {
   }
 }
 
+#osset_pie {
+  color: #bc8a4e;
+}
+
 section .pad {
   padding: 80px 0;
   background-color: rgba(188, 138, 78, 0.1764705882);
