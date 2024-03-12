@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background: url(../img/фон\ шапки.jpg) center center/cover no-repeat;
+  color: white;
+  padding: 80px 0;
+  text-align: left;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 418px;
+  background-color: rgba(0, 0, 0, 0.181);
+  z-index: 1;
+}
+header h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+@media screen and (max-width: 767px) {
+  header h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+header p {
+  font-size: 18px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+@media screen and (max-width: 767px) {
+  header {
+    background-position-x: -1250px;
+  }
+}
+@media screen and (max-width: 767px) {
+  header .lead {
+    font-weight: 400;
+  }
+}
+
+section .pad {
+  padding: 80px 0;
+  background-color: rgba(188, 138, 78, 0.1764705882);
+}
+section h2 {
+  color: #bc8a4e;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  section h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+section p, section ul {
+  padding-bottom: 30px;
+}
+section .menu-cards .card {
+  border-radius: 10px;
+}
+section .menu-cards .card .card-img-top {
+  border-radius: 10px 10px 0 0;
+  height: 250px;
+}
+section .menu-cards .card .card-title {
+  margin-bottom: 10px;
+  color: #bc8a4e;
+}
+section .menu-cards .card .card-text {
+  color: #333;
+}
+section .menu-cards .card .price {
+  font-weight: bold;
+}
+
+.HMenu {
+  font-size: 42px;
+}
+
+.about_pie {
+  padding-top: 90px;
+  width: 100%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+@media screen and (max-width: 767px) {
+  .about_pie {
+    padding-top: 0;
+  }
+}
+
+.bgc {
+  background-color: rgba(188, 138, 78, 0.1764705882);
+}
+
+#order {
+  background: url(../img/фон\ заказа.png) center center/cover no-repeat;
+  color: white;
+  height: 800px;
+  text-align: left;
+}
+#order::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 418px;
+  background-color: rgba(0, 0, 0, 0.181);
+  z-index: 1;
+}
+#order h5 {
+  padding-top: 50px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 767px) {
+  #order h5 {
+    font-size: 1.15rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  #order {
+    background-position-x: -500px;
+    padding-bottom: 80px;
+  }
+}
+
+footer {
+  background-color: rgba(188, 138, 78, 0.1764705882);
+  color: #bc8a4e;
+  padding: 30px 0;
+  text-align: center;
+}
+footer p {
+  font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+  footer p {
+    font-size: 0.9rem;
+  }
+}
+
+.whatsapp-button {
+  margin-top: 70px;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  height: 50px;
+}
+.whatsapp-button a {
+  display: block;
+  background-color: #bc8a4e;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+.whatsapp-button a:hover {
+  background-color: #9c703b;
+}/*# sourceMappingURL=style.css.map */
